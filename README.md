@@ -45,3 +45,22 @@ pip install -r requirements.txt
 
 # 4. ຮັນແອັບ
 python run_final_v3.py
+
+## 📥 ດາວໂຫຼດ
+
+ດາວໂຫຼດໄດ້ທີ່ [Releases](https://github.com/wangtulee-svg/ai-screen-assistant/releases)
+
+- **Installer:** AI-Screen-Assistant-v3-Setup.exe
+- **Portable:** AI-Screen-Assistant-v3.exe
+
+## 🖼️ Screenshots
+
+![AI Screen Assistant](new_icon.png)
+
+## 📊 ຜົນການທົດສອບ
+
+| ປະເພດ | ຄະແນນ |
+|--------|--------|
+| Math Engine | 100% |
+| Knowledge Base | 89% |
+| Overall | 95% |
