@@ -1,0 +1,75 @@
+ 
+# ============================================================
+# AI Screen Assistant - ຟາຍຕັ້ງຄ່າ
+# ============================================================
+
+project:
+  name: "AI Screen Assistant"
+  version: "1.0.0"
+  author: "Your Name"
+
+# ============================================================
+# AI Model Settings
+# ============================================================
+ai:
+  base_model: "Qwen/Qwen2.5-1.5B"  # ຫຼື "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+  adapter_path: "data/models/final_model"
+  max_length: 512
+  max_new_tokens: 100
+  temperature: 0.7
+  top_p: 0.9
+
+# ============================================================
+# Screen Scanner Settings
+# ============================================================
+scanner:
+  hotkey: "ctrl+shift+a"       # ປຸ່ມສຳລັບສະແກນ
+  capture_delay: 0.1            # ຫ່າງລະຫວ່າງການສະແກນ (ວິນາທີ)
+  ocr_lang: "eng+lao"           # ພາສາ OCR
+  confidence_threshold: 0.6     # ຄ່າຄວາມໝັ້ນໃຈຂັ້ນຕ່ຳ
+
+# ============================================================
+# UI Settings
+# ============================================================
+ui:
+  overlay_opacity: 0.85
+  font_size: 14
+  font_family: "Arial"
+  position: "bottom_right"      # top_left, top_right, bottom_left, bottom_right
+  answer_color: "#00ff88"
+  question_color: "#ffffff"
+  background_color: "rgba(0,0,0,180)"
+
+# ============================================================
+# API Settings
+# ============================================================
+api:
+  host: "127.0.0.1"
+  port: 8000
+  debug: false
+  enable_cors: true
+
+# ============================================================
+# Logging Settings
+# ============================================================
+logging:
+  level: "INFO"                 # DEBUG, INFO, WARNING, ERROR
+  file: "logs/app.log"
+  max_size: "10MB"
+  retention: "30 days"
+
+# ============================================================
+# Math Engine Settings
+# ============================================================
+math:
+  enabled: true
+  max_steps: 10
+  timeout: 5  # ວິນາທີ
+
+# ============================================================
+# Cache Settings
+# ============================================================
+cache:
+  enabled: true
+  max_size: 1000  # ຈຳນວນຄຳຖາມທີ່ເກັບໄວ້ສູງສຸດ
+  ttl: 3600  # ເວລາທີ່ຂໍ້ມູນຢູ່ໃນ Cache (ວິນາທີ)

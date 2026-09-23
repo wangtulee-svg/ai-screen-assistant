@@ -1,0 +1,43 @@
+ # ============================================================
+# AI Screen Assistant - Requirements
+# ============================================================
+
+# AI / Machine Learning
+torch
+transformers
+accelerate
+peft
+bitsandbytes
+
+# Computer Vision / Image Processing
+opencv-python
+pillow
+pytesseract
+
+# Screen Capture
+mss
+pyautogui
+
+# Math
+sympy
+
+# GUI
+pyqt5
+pyqt5-tools
+
+# API (optional)
+fastapi
+uvicorn
+
+# Utilities
+numpy
+pandas
+pyyaml
+keyboard
+requests
+loguru
+
+# Development
+pytest
+black
+flake8

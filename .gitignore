@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# PyInstaller
+*.spec.bak
+build/
+dist/
+installer_output/
+installer_output_v3/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Data
+data/screenshots/*.png
+data/regions/*.png
+data/cache/
+data/logs/
+
+# Test files
+test_*.py
+!test_requirements.txt
+
+# Icon folder (keep only app_icon.ico)
+icon.ico/
